@@ -1,0 +1,35 @@
+.singleProject {
+    background-color: yellow;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-906811087467344-1;
+  }
+  
+  .projectContent {
+    color: rgb(234, 234, 234);
+  }
+  
+  .projectContent h2 {
+    color: rgb(234, 234, 234);
+  }
+  
+  .projectContent img {
+    width: 20%;
+  }
+  
+  .project--showcaseBtn {
+    display: flex;
+  }
+  
+  .project--showcaseBtn a {
+    margin-right: 10px;
+  }
+  
+  .project--desc {
+    background: rgb(33, 33, 33);
+    color: rgb(234, 234, 234);
+  }
+  

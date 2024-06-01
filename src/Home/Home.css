@@ -1,0 +1,86 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.jiyaprofile {
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  object-fit: scale-down;
+  z-index: -1;
+}
+
+.introcontent {
+  flex: 1;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1; 
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: yellow;
+}
+
+.introPara {
+  font-size: medium;
+  font-weight: 100;
+}
+
+.button-container {
+  margin-top: 1rem;
+}
+
+.download-cv {
+  background: white;
+  padding: 0.75em 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 20px; /* Adjust the distance from the left side as needed */
+  display: flex;
+}
+
+.social-links a {
+  margin-right: 10px; /* Adjust margin between icons as needed */
+}
+
+.social-links img {
+  width: 30px; /* Adjust icon size as needed */
+  height: 30px; /* Adjust icon size as needed */
+}
+
+
+@media screen and (max-width:840px) {
+  .jiyaprofile {
+    right: -10vw;
+  }
+  .introcontent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+
+  
+}

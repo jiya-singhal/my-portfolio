@@ -1,0 +1,94 @@
+.achievement {
+    background-color: rgb(33, 33, 33);
+}
+
+.achievement-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.achievement-body h1 {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.achievement-body h4 {
+    color: rgb(234, 234, 234);
+    margin-bottom: 40px;
+}
+
+.achievement-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.achievement-card {
+    background: rgb(47, 47, 47);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-906811087467344-1;
+}
+
+.achievecard-content {
+    padding: 20px;
+}
+
+.achievecard-details1 h2 {
+    color: rgb(234, 234, 234);
+    margin-bottom: 10px;
+}
+
+.achievecard-details1 p {
+    color: rgba(234, 234, 234, 0.8);
+}
+
+.achievecard-details2 {
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.achievecard-field {
+    display: flex;
+    align-items: center;
+}
+
+.achievecard-field h5 {
+    margin-left: 5px;
+}
+
+.achievecard-imgcontainer {
+    height: 150px;
+    overflow: hidden;
+}
+
+.achievecard-imgcontainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.achievecard-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.achievecard-link:hover {
+    background-color: #0056b3;
+}

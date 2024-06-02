@@ -9,14 +9,13 @@ import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import Achievements from './Achievements/Achievements';
 
-
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />

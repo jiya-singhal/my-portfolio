@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';  
-import logo from '../assets/Jiya.png';
+import logo from '../assets/jiyaPNG.png';
 import contactImg from '../assets/contactme.png';
 import { Link as RouterLink } from 'react-router-dom'; // Import Link from react-router-dom
 import { Link as ScrollLink } from 'react-scroll'; // Import Link from react-scroll

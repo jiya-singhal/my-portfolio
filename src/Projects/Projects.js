@@ -9,7 +9,7 @@ import './Projects.css';
 const projectData = [
     {
         title: 'Event Countdown',
-        description: 'Introducing our Event Countdown App your ultimate companion to keep track of upcoming events! Whether it is a birthday, holiday, or special occasion, our app ensures you never miss an important date with precise countdowns and timely reminders.',
+        description: 'Introducing our Event Countdown App to keep track of upcoming events!Whether it is a birthday, holiday, or special occasion, our app ensures you never miss an important date with precise countdowns.',
         imgSrc: oneIcon,
         tech: ['Html', 'CSS', 'JavaScript'],
         links: [
@@ -29,7 +29,7 @@ const projectData = [
     },
     {
         title: 'Quiz App',
-        description: 'Introducing our Quiz App  an engaging platform designed to test your knowledge and challenge your mind with a variety of fun and educational quizzes. Sharpen your skills compete with friends and enjoy endless learning!',
+        description: 'Introducing our Quiz App  an engaging platform designed to test your knowledge and challenge your mind with a variety of fun and educational quizzes!',
         imgSrc: twelveIcon,
         tech: ['Html', 'CSS', 'JavaScript'],
         links: [
@@ -39,7 +39,7 @@ const projectData = [
     },
     {
         title: 'Image Editor',
-        description: 'Introducing our Image Editor App  a powerful and intuitive tool for enhancing and transforming your photos with ease. Unleash your creativity with advanced editing features, filters, and effects to make every image picture-perfect!',
+        description: 'Introducing our Image Editor App  a powerful and intuitive tool for enhancing and transforming your photos with ease!',
         imgSrc: fourIcon,
         tech: ['Java'],
         links: [

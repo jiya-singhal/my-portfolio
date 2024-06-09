@@ -10,10 +10,13 @@
 
 .projectContent {
   color: rgb(234, 234, 234);
+  justify-content: center;
 }
 
 .projectContent h2 {
+  justify-content: center;
   color: rgb(234, 234, 234);
+
 }
 
 .projectContent img {

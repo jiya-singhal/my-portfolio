@@ -9,7 +9,7 @@ import './Projects.css';
 const projectData = [
     {
         title: 'Event Countdown',
-        description: 'Introducing our Event Countdown App your ultimate companion to keep track of upcoming events! Whether it is a birthday, holiday, or special occasion, our app ensures you never miss an important date with precise countdowns and timely reminders. Stay organized and excited as you anticipate your next big event!',
+        description: 'Introducing our Event Countdown App your ultimate companion to keep track of upcoming events! Whether it is a birthday, holiday, or special occasion, our app ensures you never miss an important date with precise countdowns and timely reminders.',
         imgSrc: oneIcon,
         tech: ['Html', 'CSS', 'JavaScript'],
         links: [

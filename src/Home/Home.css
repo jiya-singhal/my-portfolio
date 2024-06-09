@@ -1,4 +1,4 @@
-#intro {
+#home {
   height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 75rem;
@@ -19,12 +19,12 @@
 
 .introcontent {
   flex: 1;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 3rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   z-index: 1; 
 }
 

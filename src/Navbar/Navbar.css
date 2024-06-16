@@ -1,5 +1,5 @@
 .Navbar {
-    height: 5rem;
+    height: 3rem;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: #282c34;
 
 }
 

@@ -43,6 +43,7 @@ const Achievements = () => (
     <div className="achievement" id="achievement">
         <div className="achievement-body">
             <h1>Achievements</h1>
+            <br></br>
             <h4>Putting quantified achievements on a resume is great, but I just don’t work with hard numbers.<br></br> I have no data to support the quality of my work. <br></br>If you have lots of relevant experience, the heading statement of your resume will be a summary.</h4>
         </div>
         <div className="achievement-cards">

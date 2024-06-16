@@ -1,0 +1,108 @@
+.contacts {
+    background-color: rgb(33, 33, 33);
+    color: #eee;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contacts-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contacts h1 {
+    color: rgb(242, 245, 57);
+    text-align: center;
+  }
+  
+  .contacts-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contacts-form {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .contacts-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-container input,
+  .input-container textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: white; /* Set text color to white */
+    background-color: rgb(44, 44, 44); /* Set background color */
+  }
+  
+  .input-container textarea {
+    min-height: 150px;
+  }
+  
+  .submit-btn button {
+    background-color: white;
+    color: rgb(33, 33, 33);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-btn button:hover {
+    background-color: yellow;
+  }
+  
+  .contacts-details {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .personal-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .personal-details .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    color: white; /* Set icon color to white */
+  }
+  
+  @media (max-width: 768px) {
+    .contacts-body {
+      flex-direction: column;
+    }
+    
+    .contacts-form,
+    .contacts-details {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    
+    .input-container,
+    .submit-btn button {
+      width: 100%;
+    }
+  }
+  

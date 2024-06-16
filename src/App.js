@@ -8,6 +8,7 @@ import Skills from './Skills/skills';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import Achievements from './Achievements/Achievements';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

@@ -9,6 +9,7 @@ import Skills from "../Skills/skills";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Achievements from "../Achievements/Achievements";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -43,6 +44,10 @@ const Home = () => {
 
       <section id="achievements">
         {<Achievements/>}
+      </section>
+
+      <section id="contacts">
+        {<Contact/>}
       </section>
 
       <div className="social-links">

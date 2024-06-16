@@ -11,7 +11,7 @@ const projectData = [
         title: 'Event Countdown',
         description: "Introducing our Event Countdown App! Never miss a birthday or special occasion with precise countdowns.",
         imgSrc: oneIcon,
-        tech: ['(Html,', 'CSS,', 'JavaScript)'],
+        tech: ['Html', 'CSS', 'JavaScript'],
         links: [
             { href: 'https://github.com/jiya-singhal/Event-CountDown', icon: <FaGithub /> },
             { href: 'https://jiya-singhal.github.io/Event-CountDown/', icon: <FaExternalLinkAlt /> }
@@ -21,7 +21,7 @@ const projectData = [
         title: 'Harry Portfolio',
         description: 'Check out Harry professional portfolio a showcase of skills, achievements, and projects that highlights his expertise and creativity.',
         imgSrc: sampleIcon,
-        tech: ['(Html,', 'CSS,', 'JavaScript)'],
+        tech: ['Html', 'CSS', 'JavaScript'],
         links: [
             { href: 'https://github.com/jiya-singhal/Harry-Portfolio', icon: <FaGithub /> },
             { href: 'https://jiya-singhal.github.io/Harry-Portfolio/', icon: <FaExternalLinkAlt /> }
@@ -31,7 +31,7 @@ const projectData = [
         title: 'Quiz App',
         description: 'Introducing our Quiz App  an engaging platform designed to test your knowledge and challenge your mind with a variety of fun and educational quizzes!',
         imgSrc: twelveIcon,
-        tech: ['(Html,', 'CSS,', 'JavaScript)'],
+        tech: ['Html', 'CSS', 'JavaScript'],
         links: [
             { href: 'https://github.com/hhhrrrttt222111/developer-portfolio', icon: <FaGithub /> },
             { href: 'https://github.com/hhhrrrttt222111/developer-portfolio', icon: <FaExternalLinkAlt /> }
@@ -41,7 +41,7 @@ const projectData = [
         title: 'Image Editor',
         description: 'Introducing our Image Editor App  a powerful and intuitive tool for enhancing and transforming your photos with ease!',
         imgSrc: fourIcon,
-        tech: ['(Java)'],
+        tech: ['Java'],
         links: [
             { href: 'https://github.com/jiya-singhal/Image-Editor', icon: <FaGithub /> }
         ]
@@ -51,8 +51,8 @@ const projectData = [
 const Project = ({ title, description, imgSrc, tech, links }) => (
     <div className="project">
         <div className="projectContent">
-            <h2>{title}</h2>
-            <img src={imgSrc} alt={title} />
+            <h2 className="projectTitle">{title}</h2>
+            <img src={imgSrc} alt={title} className="projectImage" />
             <div className="project--showcaseBtn">
                 {links.map((link, index) => (
                     <a href={link.href} target="_blank" rel="noreferrer" key={index}>
@@ -64,7 +64,7 @@ const Project = ({ title, description, imgSrc, tech, links }) => (
         <p className="project--desc">{description}</p>
         <div className="project--lang">
             {tech.map((language, index) => (
-                <span key={index}>{language}</span>
+                <span key={index} className="techTag">{language}</span>
             ))}
         </div>
     </div>
@@ -72,6 +72,7 @@ const Project = ({ title, description, imgSrc, tech, links }) => (
 
 const Projects = () => (
     <div className="projects--bodyContainer">
+        <h1 className="projects-heading">Projects</h1>
         {projectData.map((project, index) => (
             <Project {...project} key={index} />
         ))}

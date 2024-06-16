@@ -1,7 +1,6 @@
 import React from 'react';
 import './Navbar.css';  
 import logo from '../assets/jiyaPNG.png';
-import contactImg from '../assets/contactme.png';
 import { Link as RouterLink } from 'react-router-dom'; // Import Link from react-router-dom
 import { Link as ScrollLink } from 'react-scroll'; // Import Link from react-scroll
 
@@ -20,7 +19,7 @@ const Navbar = () => {
         <ScrollLink to="achievements" smooth={true} duration={500} className="navbar-menu">Achievements</ScrollLink>
       </div>
       <button className="contactBtn">
-        <img src={contactImg} alt="Contact" className="contactImg" />Contact Me
+        <div className="contactImg" />Contact Me
       </button>
     </nav>
   );

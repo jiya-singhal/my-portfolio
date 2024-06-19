@@ -1,63 +1,64 @@
 .skills {
-    background-color: rgb(33, 33, 33);
-    padding: 2rem 0;
-  }
-  
-  .skillsHeader h2 {
-    color: yellow;
-    text-align: center;
-  }
-  
-  .skillsContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .skill--scroll {
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
-  .marquee-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .marquee {
-    display: flex;
-    animation: scroll 20s linear infinite;
-  }
-  
-  .skill--box {
-    background-color: rgb(33, 33, 33);
-    box-shadow: rgba(210, 242, 5, 0.3) 0px 0px 30px;
-    padding: 1rem;
-    margin: 0 1rem;
-    text-align: center;
-  }
-  
-  .skill--box img {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .skill--box h3 {
-    color: rgb(234, 234, 234);
-    margin-top: 0.5rem;
-  }
-  
-  @keyframes scroll {
-    0% {
+  background-color: rgb(33, 33, 33);
+  padding: 2rem 0;
+}
+
+.skillsHeader h2 {
+  color: yellow;
+  text-align: center;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill--scroll {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.skill--box {
+  background-color: rgb(33, 33, 33);
+  box-shadow: rgba(210, 242, 5, 0.3) 0px 0px 30px;
+  padding: 1rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.skill--box img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.skill--box h3 {
+  color: rgb(234, 234, 234);
+  margin-top: 0.5rem;
+}
+
+@keyframes scroll {
+  0% {
       transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
   }
-  
+  100% {
+      transform: translateX(-50%);
+  }
+}

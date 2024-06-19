@@ -13,6 +13,20 @@ import numpyLogo from '../assets/skills/numpy.svg';
 import './skills.css';
 
 const Skills = () => {
+    const skills = [
+        { img: htmlLogo, name: 'HTML' },
+        { img: javaLogo, name: 'Java' },
+        { img: gitLogo, name: 'Git' },
+        { img: pythonLogo, name: 'Python' },
+        { img: javascriptLogo, name: 'Javascript' },
+        { img: cssLogo, name: 'CSS' },
+        { img: reactLogo, name: 'React' },
+        { img: djangoLogo, name: 'Django' },
+        { img: mysqlLogo, name: 'Mysql' },
+        { img: numpyLogo, name: 'Numpy' },
+        { img: awsLogo, name: 'Aws' },
+    ];
+
     return (
         <div className="skills">
             <div className="skillsHeader">
@@ -22,50 +36,32 @@ const Skills = () => {
                 <div className="skill--scroll">
                     <div className="marquee-container">
                         <div className="marquee">
-                            <div className="skill--box">
-                                <img src={htmlLogo} alt="HTML" />
-                                <h3>HTML</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={javaLogo} alt="Java" />
-                                <h3>Java</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={gitLogo} alt="Git" />
-                                <h3>Git</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={pythonLogo} alt="Python" />
-                                <h3>Python</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={javascriptLogo} alt="Javascript" />
-                                <h3>Javascript</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={cssLogo} alt="CSS" />
-                                <h3>CSS</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={reactLogo} alt="React" />
-                                <h3>React</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={djangoLogo} alt="Django" />
-                                <h3>Django</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={mysqlLogo} alt="Mysql" />
-                                <h3>Mysql</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={numpyLogo} alt="Numpy" />
-                                <h3>Numpy</h3>
-                            </div>
-                            <div className="skill--box">
-                                <img src={awsLogo} alt="Aws" />
-                                <h3>Aws</h3>
-                            </div>
+                            {skills.map((skill, index) => (
+                                <div className="skill--box" key={index}>
+                                    <img src={skill.img} alt={skill.name} />
+                                    <h3>{skill.name}</h3>
+                                </div>
+                            ))}
+                            {skills.map((skill, index) => (
+                                <div className="skill--box" key={index + skills.length}>
+                                    <img src={skill.img} alt={skill.name} />
+                                    <h3>{skill.name}</h3>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="marquee">
+                            {skills.map((skill, index) => (
+                                <div className="skill--box" key={index + skills.length * 2}>
+                                    <img src={skill.img} alt={skill.name} />
+                                    <h3>{skill.name}</h3>
+                                </div>
+                            ))}
+                            {skills.map((skill, index) => (
+                                <div className="skill--box" key={index + skills.length * 3}>
+                                    <img src={skill.img} alt={skill.name} />
+                                    <h3>{skill.name}</h3>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

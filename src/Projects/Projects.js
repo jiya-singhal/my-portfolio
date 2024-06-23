@@ -33,8 +33,8 @@ const projectData = [
         imgSrc: twelveIcon,
         tech: ['Html', 'CSS', 'JavaScript'],
         links: [
-            { href: 'https://github.com/hhhrrrttt222111/developer-portfolio', icon: <FaGithub /> },
-            { href: 'https://github.com/hhhrrrttt222111/developer-portfolio', icon: <FaExternalLinkAlt /> }
+            { href: 'https://github.com/jiya-singhal/Quiz-App', icon: <FaGithub /> },
+            { href: 'https://jiya-singhal.github.io/Quiz-App/', icon: <FaExternalLinkAlt /> }
         ]
     },
     {
